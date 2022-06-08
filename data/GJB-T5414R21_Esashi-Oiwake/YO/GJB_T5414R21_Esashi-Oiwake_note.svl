@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="10" name="GJB_T5414R21_Esashi-Oiwake.wav: Smoothed Pitch Track" sampleRate="44100" start="208384" end="4107776" type="sparse" dimensions="3" resolution="256" notifyOnAdd="true" dataset="9" subtype="flexinote" valueQuantization="0" minimum="149.126" maximum="509.148" units="Hz" />
+    <dataset id="9" dimensions="3">
+      <point frame="208384" value="399.285" duration="6912" level="0.787402" label="" />
+      <point frame="215296" value="383.577" duration="140033" level="0.787402" label="" />
+      <point frame="355329" value="383.438" duration="84351" level="0.787402" label="" />
+      <point frame="439680" value="334.276" duration="128960" level="0.787402" label="" />
+      <point frame="568640" value="373.621" duration="33728" level="0.787402" label="" />
+      <point frame="602368" value="328.817" duration="154112" level="0.787402" label="" />
+      <point frame="756480" value="250.174" duration="105216" level="0.787402" label="" />
+      <point frame="861696" value="327.957" duration="109440" level="0.787402" label="" />
+      <point frame="971136" value="308.672" duration="40896" level="0.787402" label="" />
+      <point frame="1012032" value="250.079" duration="99648" level="0.787402" label="" />
+      <point frame="1111680" value="247.693" duration="198017" level="0.787402" label="" />
+      <point frame="1347584" value="228.471" duration="6272" level="0.787402" label="" />
+      <point frame="1353856" value="226.241" duration="28545" level="0.787402" label="" />
+      <point frame="1382401" value="250.969" duration="80383" level="0.787402" label="" />
+      <point frame="1462784" value="329.944" duration="251904" level="0.787402" label="" />
+      <point frame="1714688" value="376.414" duration="128000" level="0.787402" label="" />
+      <point frame="1842688" value="372.712" duration="67840" level="0.787402" label="" />
+      <point frame="1910528" value="333.723" duration="163584" level="0.787402" label="" />
+      <point frame="2074112" value="273.177" duration="45569" level="0.787402" label="" />
+      <point frame="2150144" value="297.413" duration="13824" level="0.787402" label="" />
+      <point frame="2163968" value="335.543" duration="88576" level="0.787402" label="" />
+      <point frame="2252544" value="365.112" duration="264961" level="0.787402" label="" />
+      <point frame="2517505" value="251.603" duration="580608" level="0.787402" label="" />
+      <point frame="3166464" value="149.252" duration="7680" level="0.787402" label="" />
+      <point frame="3174144" value="149.126" duration="9344" level="0.787402" label="" />
+      <point frame="3183488" value="233.599" duration="729344" level="0.787402" label="" />
+      <point frame="3912832" value="247.5" duration="194944" level="0.787402" label="" />
+    </dataset>
+  </data>
+  <display>
+    <layer id="2" type="flexinotes" name="Notes" model="10"  verticalScale="0" scaleMinimum="34" scaleMaximum="77"  colourName="Bright Blue" colour="#1e96ff" darkBackground="true" />
+  </display>
+</sv>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+  <data>
+    <model id="12" name="GJB_T5414R24_Yagi-bushi.wav: Smoothed Pitch Track" sampleRate="44100" start="1135872" end="2670592" type="sparse" dimensions="3" resolution="256" notifyOnAdd="true" dataset="11" subtype="flexinote" valueQuantization="0" minimum="164.083" maximum="2807.26" units="Hz" />
+    <dataset id="11" dimensions="3">
+      <point frame="1135872" value="205.21" duration="35968" level="0.787402" label="" />
+      <point frame="1171840" value="241.187" duration="45697" level="0.787402" label="" />
+      <point frame="1217537" value="282.125" duration="14527" level="0.787402" label="" />
+      <point frame="1232064" value="357.646" duration="28096" level="0.787402" label="" />
+      <point frame="1260160" value="501.115" duration="98560" level="0.787402" label="" />
+      <point frame="1358720" value="435.369" duration="40320" level="0.787402" label="" />
+      <point frame="1399040" value="408.789" duration="16384" level="0.787402" label="" />
+      <point frame="1415424" value="363.31" duration="8449" level="0.787402" label="" />
+      <point frame="1423873" value="471.987" duration="9984" level="0.787402" label="" />
+      <point frame="1433857" value="486.144" duration="12543" level="0.787402" label="" />
+      <point frame="1446400" value="481.035" duration="6657" level="0.787402" label="" />
+      <point frame="1453057" value="436.07" duration="7168" level="0.787402" label="" />
+      <point frame="1460225" value="495.681" duration="23295" level="0.787402" label="" />
+      <point frame="1483520" value="448.205" duration="10240" level="0.787402" label="" />
+      <point frame="1493760" value="489.27" duration="23040" level="0.787402" label="" />
+      <point frame="1516800" value="462.428" duration="11520" level="0.787402" label="" />
+      <point frame="1528320" value="383.437" duration="13056" level="0.787402" label="" />
+      <point frame="1541376" value="351.898" duration="20992" level="0.787402" label="" />
+      <point frame="1562368" value="312.04" duration="13568" level="0.787402" label="" />
+      <point frame="1589504" value="208.557" duration="2816" level="0.787402" label="" />
+      <point frame="1597696" value="315.111" duration="11264" level="0.787402" label="" />
+      <point frame="1608960" value="376.853" duration="8448" level="0.787402" label="" />
+      <point frame="1617408" value="432.695" duration="15104" level="0.787402" label="" />
+      <point frame="1632512" value="486.966" duration="22624" level="0.787402" label="" />
+      <point frame="1655136" value="482.015" duration="10656" level="0.787402" label="" />
+      <point frame="1665792" value="486.339" duration="13568" level="0.787402" label="" />
+      <point frame="1680128" value="381.717" duration="9216" level="0.787402" label="" />
+      <point frame="1689600" value="435.506" duration="12192" level="0.787402" label="" />
+      <point frame="1701792" value="423.631" duration="12641" level="0.787402" label="" />
+      <point frame="1714433" value="370.044" duration="12288" level="0.787402" label="" />
+      <point frame="1726721" value="367.617" duration="7680" level="0.787402" label="" />
+      <point frame="1734401" value="354.658" duration="9727" level="0.787402" label="" />
+      <point frame="1744128" value="315.689" duration="7425" level="0.787402" label="" />
+      <point frame="1751553" value="228.062" duration="10239" level="0.787402" label="" />
+      <point frame="1768192" value="214.469" duration="2560" level="0.787402" label="" />
+      <point frame="1775616" value="238.092" duration="9216" level="0.787402" label="" />
+      <point frame="1785600" value="309.579" duration="7680" level="0.787402" label="" />
+      <point frame="1800704" value="285.759" duration="4352" level="0.787402" label="" />
+      <point frame="1805312" value="241.132" duration="3328" level="0.787402" label="" />
+      <point frame="1814784" value="294.361" duration="13312" level="0.787402" label="" />
+      <point frame="1834240" value="240.409" duration="4352" level="0.787402" label="" />
+      <point frame="1838848" value="207.399" duration="4096" level="0.787402" label="" />
+      <point frame="1843200" value="188.637" duration="9472" level="0.787402" label="" />
+      <point frame="1858560" value="290.857" duration="22017" level="0.787402" label="" />
+      <point frame="1880577" value="339.414" duration="14336" level="0.787402" label="" />
+      <point frame="1894913" value="321.992" duration="8767" level="0.787402" label="" />
+      <point frame="1903680" value="295.929" duration="2240" level="0.787402" label="" />
+      <point frame="1912832" value="337.259" duration="11520" level="0.787402" label="" />
+      <point frame="1924608" value="274.915" duration="4352" level="0.787402" label="" />
+      <point frame="1929984" value="237.53" duration="5632" level="0.787402" label="" />
+      <point frame="1959168" value="207.272" duration="3584" level="0.787402" label="" />
+      <point frame="1969664" value="241.212" duration="11776" level="0.787402" label="" />
+      <point frame="1981440" value="313.441" duration="16128" level="0.787402" label="" />
+      <point frame="1997568" value="436.41" duration="17856" level="0.787402" label="" />
+      <point frame="2015424" value="430.158" duration="11840" level="0.787402" label="" />
+      <point frame="2027264" value="496.355" duration="13056" level="0.787402" label="" />
+      <point frame="2040320" value="458.733" duration="10752" level="0.787402" label="" />
+      <point frame="2051072" value="485.962" duration="10496" level="0.787402" label="" />
+      <point frame="2061568" value="508.888" duration="12544" level="0.787402" label="" />
+      <point frame="2074368" value="418.219" duration="8961" level="0.787402" label="" />
+      <point frame="2095104" value="370.968" duration="5376" level="0.787402" label="" />
+      <point frame="2100736" value="341.443" duration="5633" level="0.787402" label="" />
+      <point frame="2106369" value="325.807" duration="8127" level="0.787402" label="" />
+      <point frame="2114496" value="293.227" duration="9025" level="0.787402" label="" />
+      <point frame="2141696" value="430.314" duration="6912" level="0.787402" label="" />
+      <point frame="2148608" value="441.154" duration="15136" level="0.787402" label="" />
+      <point frame="2163744" value="343.152" duration="12513" level="0.787402" label="" />
+      <point frame="2176257" value="335.373" duration="9375" level="0.787402" label="" />
+      <point frame="2185632" value="379.211" duration="11617" level="0.787402" label="" />
+      <point frame="2197249" value="391.016" duration="12544" level="0.787402" label="" />
+      <point frame="2209793" value="356.904" duration="13056" level="0.787402" label="" />
+      <point frame="2222849" value="381.309" duration="7135" level="0.787402" label="" />
+      <point frame="2229984" value="442.248" duration="12320" level="0.787402" label="" />
+      <point frame="2252544" value="442.755" duration="14592" level="0.787402" label="" />
+      <point frame="2267136" value="337.277" duration="9504" level="0.787402" label="" />
+      <point frame="2276640" value="386.808" duration="12096" level="0.787402" label="" />
+      <point frame="2288736" value="332.124" duration="9377" level="0.787402" label="" />
+      <point frame="2298113" value="240.073" duration="8959" level="0.787402" label="" />
+      <point frame="2331904" value="164.083" duration="10976" level="0.787402" label="" />
+      <point frame="2342880" value="204.981" duration="12672" level="0.787402" label="" />
+      <point frame="2355552" value="250.332" duration="6912" level="0.787402" label="" />
+      <point frame="2362464" value="288.609" duration="11425" level="0.787402" label="" />
+      <point frame="2373889" value="245.879" duration="9983" level="0.787402" label="" />
+      <point frame="2383872" value="192.819" duration="8704" level="0.787402" label="" />
+      <point frame="2398208" value="224.33" duration="10497" level="0.787402" label="" />
+      <point frame="2408705" value="291.353" duration="12799" level="0.787402" label="" />
+      <point frame="2421504" value="341.398" duration="15264" level="0.787402" label="" />
+      <point frame="2436768" value="330.95" duration="2400" level="0.787402" label="" />
+      <point frame="2451968" value="337.399" duration="12160" level="0.787402" label="" />
+      <point frame="2464128" value="287.22" duration="8640" level="0.787402" label="" />
+      <point frame="2472768" value="255.073" duration="3520" level="0.787402" label="" />
+      <point frame="2498048" value="217.383" duration="9472" level="0.787402" label="" />
+      <point frame="2507520" value="252.696" duration="11264" level="0.787402" label="" />
+      <point frame="2518784" value="299.729" duration="11008" level="0.787402" label="" />
+      <point frame="2529792" value="386.76" duration="12384" level="0.787402" label="" />
+      <point frame="2542176" value="426.402" duration="12960" level="0.787402" label="" />
+      <point frame="2555136" value="446.952" duration="11232" level="0.787402" label="" />
+      <point frame="2566368" value="473.968" duration="11872" level="0.787402" label="" />
+      <point frame="2578240" value="322.85" duration="9152" level="0.787402" label="" />
+      <point frame="2587392" value="321.841" duration="12288" level="0.787402" label="" />
+      <point frame="2599680" value="390.464" duration="16512" level="0.787402" label="" />
+      <point frame="2616192" value="400.002" duration="8576" level="0.787402" label="" />
+      <point frame="2624768" value="388.272" duration="9568" level="0.787402" label="" />
+      <point frame="2634336" value="420.353" duration="10912" level="0.787402" label="" />
+      <point frame="2645248" value="358.24" duration="25089" level="0.787402" label="" />
+    </dataset>
+  </data>
+  <display>
+    <layer id="2" type="flexinotes" name="Notes" model="12"  verticalScale="0" scaleMinimum="34" scaleMaximum="77"  colourName="Bright Blue" colour="#1e96ff" darkBackground="true" />
+  </display>
+</sv>
