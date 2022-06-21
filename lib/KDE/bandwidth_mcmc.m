@@ -28,7 +28,7 @@ function [H, lnf, B] = bandwidth_mcmc(X, M, lmd, fullcov)
     E_idx = eye(numel(idx));
 
     %% Choose an initial bandwidth parameter
-    C = [0.01, 0.1, 1, 10, 100, 1000, 10000];
+    C = [0.01, 0.1, 1, 10, 100, 1000, 10000, 100000, 1000000, 5000000];
     lnf = zeros(numel(C), 1);
 
     for i=1:numel(C)
@@ -102,3 +102,28 @@ function lnf = h_fulljoint(X, B, lmd, ZERO, E, I, N)
     %%
     lnf = lnf + sum(log(1./(1 + lmd.*B.^2)), 'all');
 end
+
+%% Sample code
+%{
+X = mvnrnd([0, 0], [101.3312, -34.7645; -34.7645, 12.4676], 2000);
+M = 1024;
+[H, lnf, B] = bandwidth_mcmc(X, M, 1, true);
+
+J = 512;
+support_x = linspace(min(X(:, 1)), max(X(:, 1)), J)';
+support_y = linspace(min(X(:, 2)), max(X(:, 2)), J)';
+support_2d = cell2mat(arrayfun(@(y) [support_x, repmat(y, [J, 1])], support_y, 'UniformOutput', false));
+
+P = 0;
+for l=1:size(X, 1)
+	P = P + mvnpdf(support_2d, X(l, :), H);
+end
+P = reshape(P, [J, J])./size(X, 1);
+
+figure(1);
+subplot(1, 2, 1);
+imagesc(support_y, support_x, P);
+set(gca, 'YDir', 'Normal');
+subplot(1, 2, 2);
+scatter(X(:, 1), X(:, 2), 'Marker', 'x', 'MarkerEdgeColor', 'm');
+%}
